@@ -2,7 +2,7 @@
 services:
   db:
     container_name: postgres
-    image: postgres
+    image: postgres:15.3
     environment:
       POSTGRES_USER: coedev
       POSTGRES_PASSWORD: password321
