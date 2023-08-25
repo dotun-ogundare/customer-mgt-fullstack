@@ -3,7 +3,7 @@ package com.coedev;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController //comment
 public class PingPongController {
 
     record PingPong(String result){}
