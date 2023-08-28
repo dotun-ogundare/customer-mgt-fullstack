@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "coedev-api",
-      "image": "coedev/coedev-amigos-test:25.08.2023.18.39.59",
+      "image": "coedev/coedev-amigos-test:28.08.2023.14.12.49",
       "essential": true,
       "memory": 512,
       "portMappings": [
