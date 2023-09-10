@@ -30,7 +30,7 @@ jobs:
         working-directory: ./backend
     steps:
       - uses: actions/checkout@v3
-      - name: Slack commit message and sha
+      - name: Echo Slack commit message and sha
         run: >
           curl -X POST -H 'Content-type: application/json'
           --data '{"text":":github: https://github.com/dotun-ogundare/customer-mgt-fullstack/commit/${{ github.sha }} - ${{ github.event.head_commit.message }}"}' 
